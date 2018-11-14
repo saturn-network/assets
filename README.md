@@ -8,10 +8,11 @@ Please follow these steps to add your token's logo and additional information to
 ```
 {
   "name": "Token Name",
-  "symbol": "Token Ticker",
   "address": "Token Address",
-  "website": "website",
+  "symbol": "Token Ticker",
+  "decimals": "Token Decimals",
   "logo": "https://saturn-network.github.io/exchange-dashboard/etc/logo/YOUR_TOKEN_SYMBOL.png",
+  "website": "Website",
   "forum": "Link to your topic on https://forum.saturn.network/"
 }
 ```
