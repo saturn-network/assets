@@ -1,7 +1,7 @@
 # Assets Self-Listing
 Please follow these steps to add your token's logo and additional information to our assets database which will be used across our products, notably the information will be displayed on our exchange's dashboards & in Saturn Wallet. This helps our users research your token and ensures your community does not confuse your token with another.
 ## How to add your logo & additional information
-* Step 1: Ensure you have a 200x200 logo on a transparent background in PNG format ready.
+* Step 1: Ensure you have a 200x200 logo on a transparent background in PNG format ready. For the best results, your logo should take up most of the canvas & you do not want to have a transparent margin around it.
 * Step 2: Fork the project's repository.
 * Step 3: Upload your token's logo to the relevant directory: Ethereum tokens go in assets/eth/logo/ whereas Ethereum Classic tokens go in assets/etc/logo/.
 * Step 4: Add your token's information to the relevant JSON file: Ethereum tokens use assets/eth/tokens.json whereas Ethereum Classic tokens use assets/etc/tokens.json. Follow this format:
