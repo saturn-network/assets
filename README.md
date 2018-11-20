@@ -3,8 +3,8 @@ Please follow these steps to add your token's logo and additional information to
 ## How to add your logo & additional information
 * Step 1: Ensure you have a 200x200 logo on a transparent background in PNG format ready.
 * Step 2: Fork the project's repository.
-* Step 2: Upload your token's logo to the relevant directory: Ethereum tokens go in assets/eth/logo/ whereas Ethereum Classic tokens go in assets/etc/logo/.
-* Step 3: Add your token's information to the relevant JSON file: Ethereum tokens use assets/eth/tokens.json whereas Ethereum Classic tokens use assets/etc/tokens.json. Follow this format:
+* Step 3: Upload your token's logo to the relevant directory: Ethereum tokens go in assets/eth/logo/ whereas Ethereum Classic tokens go in assets/etc/logo/.
+* Step 4: Add your token's information to the relevant JSON file: Ethereum tokens use assets/eth/tokens.json whereas Ethereum Classic tokens use assets/etc/tokens.json. Follow this format:
 ```
 {
   "name": "Token Name",
@@ -16,7 +16,7 @@ Please follow these steps to add your token's logo and additional information to
   "forum": "Link to your topic on https://forum.saturn.network/"
 }
 ```
-* Step 4: Create a Pull Request.
+* Step 5: Create a Pull Request.
 
 ## **Please note we have to manually approve pull requests and we may refuse requests containing abusive content or misleading information that will alienate our website visitors.**
 
