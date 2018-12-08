@@ -15,7 +15,7 @@ We like to have a place where our community can easily find out information abou
   "address": "Token Address",
   "symbol": "Token Ticker",
   "decimals": "Token Decimals",
-  "logo": "https://saturn-network.github.io/exchange-dashboard/etc/logo/YOUR_TOKEN_SYMBOL.png",
+  "logo": "https://github.saturn.network/BLOCKCHAIN/logo/YOUR_TOKEN_SYMBOL.png",
   "website": "Link to your website",
   "forum": "Link to your topic on https://forum.saturn.network/"
 }
