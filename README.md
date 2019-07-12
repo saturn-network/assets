@@ -17,6 +17,7 @@ We like to have a place where our community can easily find out information abou
   "decimals": Token Decimals,
   "logo": "https://github.saturn.network/BLOCKCHAIN/logo/YOUR_TOKEN_SYMBOL.png",
   "website": "Link to your website",
+  "twitter": "Link to your Twitter profile",
   "forum": "Link to your topic on https://forum.saturn.network/"
 }
 ```
