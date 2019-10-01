@@ -3,6 +3,8 @@ Please follow these steps to add your token's logo and additional information to
 
 For any token listing support you can reach us via email: contact@saturn.network
 
+You can also follow this guide: https://www.saturn.network/blog/token-self-listing-guide/
+
 ## How to add your logo & additional information
 * Step 1: Ensure you have a 200x200 logo on a transparent background in PNG format ready. For the best results, your logo should take up most of the canvas & you do not want to have a transparent margin around it.
 * Step 2: Fork the project's repository.
