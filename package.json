@@ -1,0 +1,10 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": "git@github.com:saturn-network/assets.git",
+  "license": "MIT"
+}
