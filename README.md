@@ -1,12 +1,14 @@
 # Assets Self-Listing
-Please follow these steps to add your token's logo and additional information to our assets database which will be used across our products, notably the information will be displayed on our exchange's dashboards & in Saturn Wallet. This helps our users research your token and ensures your community does not confuse your token with another, therefore, we ask you be as accurate as possible.
+Please follow these steps to add your token's logo and additional information to our assets database which will be used across our products, notably the information will be displayed on [our exchange's dashboards](https://saturn.network) & in [Saturn Wallet](https://www.saturn.network/blog/saturn-wallet/). This helps our users research your token and ensures traders do not confuse your token with another, therefore, we ask you be as accurate as possible.
+
+Submit Token Details via Google form: https://forms.gle/QjtUYcbttCeyUfK48
+
+Token Self Listing Guide: https://www.saturn.network/blog/token-self-listing-guide/
 
 For any token listing support you can reach us via email: contact@saturn.network
 
-You can also follow this guide: https://www.saturn.network/blog/token-self-listing-guide/
-
 ## How to add your logo & additional information
-* Step 1: Ensure you have a 200x200 logo on a transparent background in PNG format ready. For the best results, your logo should take up most of the canvas & you do not want to have a transparent margin around it.
+* Step 1: Ensure you have a 200x200 logo on a transparent background in PNG format ready. For the best results, your logo should take up most of the canvas & you do not want to have a transparent margin around it. We also recommend announcing your project in our [forum](https://forum.saturn.network/c/cryptocurrencies).
 * Step 2: Fork the project's repository.
 * Step 3: Upload your token's logo to the relevant directory: Ethereum tokens go in assets/eth/logo/ whereas Ethereum Classic tokens go in assets/etc/logo/.
 * Step 4: Add your token's information to the relevant JSON file: Ethereum tokens use assets/eth/tokens.json whereas Ethereum Classic tokens use assets/etc/tokens.json. Follow this format:
@@ -18,6 +20,7 @@ You can also follow this guide: https://www.saturn.network/blog/token-self-listi
   "decimals": Token Decimals,
   "logo": "https://github.saturn.network/BLOCKCHAIN/logo/YOUR_TOKEN_SYMBOL.png",
   "website": "Link to your website",
+  "forum": "Link to your project's discussion thread on our forum", 
   "twitter": "Link to your Twitter profile"
 }
 ```
