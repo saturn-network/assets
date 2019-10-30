@@ -1,12 +1,23 @@
 'use strict';
 const _ = require('lodash')
 
+function findDuplicate(arr) {
+  let hm = {}
+  for (let key of arr) {
+    if (!hm[key]) {
+      hm[key] = true
+    } else {
+      return key
+    }
+  }
+}
+
 function ensureNoDuplicates(arr) {
   let allAddresses = _.map(arr, 'address')
   let lowerCaseAddys = _.map(allAddresses, x => x.toLowerCase())
   let unique = _.uniq(lowerCaseAddys)
   if (unique.length !== lowerCaseAddys.length) {
-    throw new Error('Duplicates detected!')
+    throw new Error(`Duplicates detected! Check ${findDuplicate(lowerCaseAddys)}`)
   }
 }
 
