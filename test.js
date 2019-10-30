@@ -1,9 +1,23 @@
 'use strict';
+const _ = require('lodash')
+
+function ensureNoDuplicates(arr) {
+  let allAddresses = _.map(arr, 'address')
+  let lowerCaseAddys = _.map(allAddresses, x => x.toLowerCase())
+  let unique = _.uniq(lowerCaseAddys)
+  if (unique.length !== lowerCaseAddys.length) {
+    throw new Error('Duplicates detected!')
+  }
+}
 
 try {
   let eth = require('./eth/tokens.json')
   let etc = require('./etc/tokens.json')
   console.log('asset.json is valid!')
+
+  ensureNoDuplicates(eth)
+  ensureNoDuplicates(etc)
+
   process.exit(0)
 } catch(e) {
   console.error(e)
