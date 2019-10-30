@@ -1,6 +1,12 @@
 'use strict';
 const _ = require('lodash')
 
+function ensureCorrectAddressFormat(addy) {
+  if (addy.length !== 42) {
+    throw new Error(`Wrong address format for "${addy}"`)
+  }
+}
+
 function findDuplicate(arr) {
   let hm = {}
   for (let key of arr) {
@@ -14,6 +20,7 @@ function findDuplicate(arr) {
 
 function ensureNoDuplicates(arr) {
   let allAddresses = _.map(arr, 'address')
+  _.map(allAddresses, x => ensureCorrectAddressFormat(x))
   let lowerCaseAddys = _.map(allAddresses, x => x.toLowerCase())
   let unique = _.uniq(lowerCaseAddys)
   if (unique.length !== lowerCaseAddys.length) {
