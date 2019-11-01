@@ -5,6 +5,9 @@ function ensureCorrectAddressFormat(addy) {
   if (addy.length !== 42) {
     throw new Error(`Wrong address format for "${addy}"`)
   }
+  if (addy != addy.toLowerCase()) {
+    throw new Error(`All addresses must be lowercase. Fix ${addy}`)
+  }
 }
 
 function findDuplicate(arr) {
