@@ -11,19 +11,29 @@ For any token listing support you can reach us via email: contact@saturn.network
 * Step 1: Ensure you have a 200x200 logo on a transparent background in PNG format ready. For the best results, your logo should take up most of the canvas & you do not want to have a transparent margin around it. We also recommend announcing your project in our [forum](https://forum.saturn.network/c/cryptocurrencies).
 * Step 2: Fork the project's repository.
 * Step 3: Upload your token's logo to the relevant directory: Ethereum tokens go in assets/eth/logo/ whereas Ethereum Classic tokens go in assets/etc/logo/.
-* Step 4: Add your token's information to the relevant JSON file: Ethereum tokens use assets/eth/tokens.json whereas Ethereum Classic tokens use assets/etc/tokens.json. Follow this format:
+* Step 4: Add your token's information to the relevant JSON file: Ethereum tokens use assets/eth/tokens.json whereas Ethereum Classic tokens use assets/etc/tokens.json. 
+
+For any information you do not have, do not leave it blank, remove the whole row.
+
+Here is an an example below for Saturn DAO Token:
 ```
 {
-  "name": "Token Name",
-  "address": "Token Address",
-  "symbol": "Token Ticker",
-  "decimals": Token Decimals,
-  "logo": "https://github.saturn.network/BLOCKCHAIN/logo/YOUR_TOKEN_SYMBOL.png",
-  "website": "Link to your website",
-  "forum": "Link to your project's discussion thread on our forum", 
-  "twitter": "Link to your Twitter profile"
+ "name": "Saturn DAO Token",
+ "address": "0xb9440022a095343b440d590fcd2d7a3794bd76c8",
+ "symbol": "SATURN",
+ "decimals": 4,
+ "logo": "https://github.saturn.network/eth/logo/saturn.png",
+ "website": "https://saturn.network/",
+ "twitter": "https://twitter.com/SaturnProtocol",
+ "reddit": "https://www.reddit.com/r/saturnnetwork/",
+ "telegram": "https://t.me/saturn_dao",
+ "facebook": "https://www.facebook.com/saturn.protocol",
+ "saturn_blog_tag": "saturn-network",
+ "forum": "https://forum.saturn.network/c/saturn-network",
 }
 ```
+If you are in doubt or need help, fill in our form found here: https://forms.gle/QjtUYcbttCeyUfK48
+
 * Step 5: Create a Pull Request.
 
 ## **Please note we have to manually approve pull requests and we may refuse requests containing abusive content or misleading information that will alienate our website visitors.**
