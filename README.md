@@ -17,20 +17,20 @@ For any information you do not have, do not leave it blank, remove the whole row
 
 Here is an an example below for Saturn DAO Token:
 ```
-{
- "name": "Saturn DAO Token",
- "address": "0xb9440022a095343b440d590fcd2d7a3794bd76c8",
- "symbol": "SATURN",
- "decimals": 4,
- "logo": "https://github.saturn.network/eth/logo/saturn.png",
- "website": "https://saturn.network/",
- "twitter": "https://twitter.com/SaturnProtocol",
- "reddit": "https://www.reddit.com/r/saturnnetwork/",
- "telegram": "https://t.me/saturn_dao",
- "facebook": "https://www.facebook.com/saturn.protocol",
- "saturn_blog_tag": "saturn-network",
- "forum": "https://forum.saturn.network/c/saturn-network",
-}
+  {
+    "name": "Saturn DAO Token",
+    "address": "0xb9440022a095343b440d590fcd2d7a3794bd76c8",
+    "symbol": "SATURN",
+    "decimals": 4,
+    "logo": "https://github.saturn.network/eth/logo/saturn.png",
+    "website": "https://saturn.network/",
+    "twitter": "https://twitter.com/SaturnProtocol",
+    "reddit": "https://www.reddit.com/r/saturnnetwork/",
+    "telegram": "https://t.me/saturn_dao",
+    "facebook": "https://www.facebook.com/saturn.protocol",
+    "saturn_blog_tag": "saturn-network",
+    "forum": "https://forum.saturn.network/t/what-is-saturn-token/1999"
+  }
 ```
 If you are in doubt or need help, fill in our form found here: https://forms.gle/QjtUYcbttCeyUfK48
 
