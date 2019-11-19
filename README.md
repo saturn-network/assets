@@ -34,7 +34,7 @@ Here is an an example below for Saturn DAO Token:
     "forum": "https://forum.saturn.network/t/what-is-saturn-token/1999"
   }
 ```
-If you are in doubt or need help, fill in our form found here: https://forms.gle/QjtUYcbttCeyUfK48
+If you are in doubt or need help, [fill in our form found here](https://forms.gle/QjtUYcbttCeyUfK48) and we will add your token details for you. 
 
 * Step 5: Create a Pull Request.
 
