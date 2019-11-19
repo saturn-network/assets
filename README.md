@@ -30,7 +30,7 @@ Here is an an example below for Saturn DAO Token:
     "reddit": "https://www.reddit.com/r/saturnnetwork/",
     "telegram": "https://t.me/saturn_dao",
     "facebook": "https://www.facebook.com/saturn.protocol",
-    "saturn_blog_tag": "saturn-network",
+    "saturn_blog_tag": "https://www.saturn.network/blog/tag/saturn-network/",
     "forum": "https://forum.saturn.network/t/what-is-saturn-token/1999"
   }
 ```
