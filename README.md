@@ -1,7 +1,8 @@
 # Assets Self-Listing
 Please follow these steps to add your token's logo and additional information to our assets database which will be used across our products, notably the information will be displayed on [our exchange's dashboards](https://saturn.network) & in [Saturn Wallet](https://www.saturn.network/blog/saturn-wallet/). This helps our users research your token and ensures traders do not confuse your token with another, therefore, we ask you be as accurate as possible.
 
-If you prefer you can simply click the banner below to submit your token details via [our request form](https://forms.gle/QjtUYcbttCeyUfK48)
+If you are unsure how to use Github, please submit your token details via [our request form](https://forms.gle/QjtUYcbttCeyUfK48).
+
 [![http://www.saturn.network/blog/content/images/2019/11/Submit-Token-Details.png](http://www.saturn.network/blog/content/images/2019/11/Submit-Token-Details.png)](https://forms.gle/QjtUYcbttCeyUfK48)
 
 If you need any help please [follow this guide](https://www.saturn.network/blog/token-self-listing-guide/).
