@@ -31,7 +31,9 @@ Here is an an example below for Saturn DAO Token:
     "telegram": "https://t.me/saturn_dao",
     "facebook": "https://www.facebook.com/saturn.protocol",
     "saturn_blog_tag": "https://www.saturn.network/blog/tag/saturn-network/",
-    "forum": "https://forum.saturn.network/t/what-is-saturn-token/1999"
+    "forum": "https://forum.saturn.network/t/what-is-saturn-token/1999",
+    "coingecko": "https://www.coingecko.com/en/coins/saturn-dao-token",
+    "discord": "https://discord.gg/qwb7xNq"
   }
 ```
 If you are in doubt or need help, [fill in our form found here](https://forms.gle/QjtUYcbttCeyUfK48) and we will add your token details for you. 
